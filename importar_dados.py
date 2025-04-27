@@ -140,8 +140,8 @@ def inserir_dados_manual(conn, df, tabela, colunas_tabela):
 
 def enviar_dados():
     # Configurações
-   excel_path = "dados_tenis.xlsx"
-   db_path = "tenis_analises_db.db"
+    excel_path = "dados_tenis.xlsx"
+    db_path = "tenis_analises_db.db"
     
     try:
         # ===== 1. VALIDAÇÃO INICIAL =====
