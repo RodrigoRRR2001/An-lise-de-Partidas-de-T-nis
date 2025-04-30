@@ -1,5 +1,8 @@
 streamlit==1.32.0
 pandas==2.2.1
 plotly==5.18.0
-openpyxl==3.1.2  # Para ler arquivos Excel
-sqlalchemy==2.0.25  # Melhor compatibilidade com SQLite
+openpyxl==3.1.2
+sqlalchemy==2.0.25
+pdfkit==1.0.0          # Biblioteca para converter HTML em PDF
+jinja2==3.1.3         # Para templates HTML (usado no exemplo)
+wkhtmltopdf==0.2      # Dependência do pdfkit (conversor real para PDF)
